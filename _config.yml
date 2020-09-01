@@ -1,2 +1,5 @@
 title: Jaime's blog
+description: 'From Taiwan, a beautiful island. Learning English and sharing code experience.'
 theme: jekyll-theme-cayman
+author: Jaime Lin
+timezone: 'Asia/Taipei'
