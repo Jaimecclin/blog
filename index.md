@@ -5,7 +5,7 @@ Here is my learning record through [LeetCode Questions](https://github.com/Jaime
 ---
 
 ## C++ error “Case bypasses initialization of a local variable” (9/2/2020)
-[Article Link](https://github.com/Jaimecclin/blog/articles/cplus2-err-casebypassesinitializationofalocalvariable)
+[Article Link](https://jaimecclin.github.io/blog/articles/cplus2-err-casebypassesinitializationofalocalvariable)
 
 ---
 
