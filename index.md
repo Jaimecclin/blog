@@ -4,6 +4,11 @@ Here is my learning record through [LeetCode Questions](https://github.com/Jaime
 
 ---
 
+## Python Multiprocessing Manager Error-‘ForkAwareLocal’ object has no attribute (9/2/2020)
+[Article Link](https://jaimecclin.github.io/blog/articles/python-err-forkawarelocal)
+
+---
+
 ## C++ error “Case bypasses initialization of a local variable” (9/2/2020)
 [Article Link](https://jaimecclin.github.io/blog/articles/cplus2-err-casebypassesinitializationofalocalvariable)
 
