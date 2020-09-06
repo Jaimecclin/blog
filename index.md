@@ -4,6 +4,13 @@ Here is my learning record through [LeetCode Questions](https://github.com/Jaime
 
 ---
 
+## Python list multiplication operator trap (9/6/2020)
+[Article Link](https://jaimecclin.github.io/blog/articles/python-list-multiplication-operator)
+
+---
+
+---
+
 ## Python Multiprocessing Manager Error-‘ForkAwareLocal’ object has no attribute (9/2/2020)
 [Article Link](https://jaimecclin.github.io/blog/articles/python-err-forkawarelocal)
 
