@@ -13,16 +13,16 @@ Recently I had two interview with python related positions. I believe it's worth
 1. Please write down the result.
    
    ```python
-   class A:
-    x = 5
-    def __init__(self):
-        self.y = 1
+    class A:
+        x = 5
+        def __init__(self):
+            self.y = 1
 
-    class B(A):
-    x = 6
+        class B(A):
+        x = 6
 
-    class C(A):
-        pass
+        class C(A):
+            pass
 
     A.x = 7
     B.x = 8
@@ -68,25 +68,26 @@ Recently I had two interview with python related positions. I believe it's worth
 3. Design a Calculator class and implement functionality of plus, minus, multiply, and divide. Please try your best to make it handy to use. Hint: Maybe we can use it like a library.
 
    Ans 1: Implemete class methods.
+   
    ```python
-   class Calculator():
-    @classmethod
-    def plus(cls, val1, val2):
-        return val1 + val2
-    
-    @classmethod
-    def minus(cls, val1, val2):
-        return val1 - val2
-    
-    @classmethod
-    def multiply(cls, val1, val2):
-        return val1 * val2
-    
-    @classmethod
-    def divide(cls, val1, val2):
-        if val2 == 0:
-        raise ZeroDivisionError
-        return val1 / val2
+    class Calculator():
+        @classmethod
+        def plus(cls, val1, val2):
+            return val1 + val2
+        
+        @classmethod
+        def minus(cls, val1, val2):
+            return val1 - val2
+        
+        @classmethod
+        def multiply(cls, val1, val2):
+            return val1 * val2
+        
+        @classmethod
+        def divide(cls, val1, val2):
+            if val2 == 0:
+            raise ZeroDivisionError
+            return val1 / val2
     
     ans = Calculator.plus(5, 3)
     ans = Calculator.minus(5, 3)
@@ -95,6 +96,7 @@ Recently I had two interview with python related positions. I believe it's worth
    ```
 
    Ans 2: Rewrite class operator.
+
    ```python
     class Calculator():
         def __init__(self, val):
