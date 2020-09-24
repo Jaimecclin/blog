@@ -68,7 +68,7 @@ Recently I had two interview with python related positions. I believe it's worth
 3. Design a Calculator class and implement functionality of plus, minus, multiply, and divide. Please try your best to make it handy to use. Hint: Maybe we can use it like a library.
 
    Ans 1: Implemete class methods.
-   
+
    ```python
     class Calculator():
         @classmethod
@@ -86,7 +86,7 @@ Recently I had two interview with python related positions. I believe it's worth
         @classmethod
         def divide(cls, val1, val2):
             if val2 == 0:
-            raise ZeroDivisionError
+                raise ZeroDivisionError
             return val1 / val2
     
     ans = Calculator.plus(5, 3)
@@ -113,7 +113,7 @@ Recently I had two interview with python related positions. I believe it's worth
             
         def __truediv__(self, item):
             if item._value == 0:
-            raise ZeroDivisionError
+                raise ZeroDivisionError
             return self._value / item._value
 
     ans = Calculator(5) + Calculator(3)
@@ -122,7 +122,7 @@ Recently I had two interview with python related positions. I believe it's worth
     ans = Calculator(5) / Calculator(3)
    ```
 
-   Explanation: Actually I came up with these two ideas when I was testing. Not sure which one is better.
+   Explanation: Actually I came up with these two ideas when I was testing. Not sure which one is better. I feel the former one is more close to the question.
    
 4. There is a special class below and we hope the adding value into it only via __insert__. Assume that insert function is completed. So please add something to make it raise InsertError correctly.
    
