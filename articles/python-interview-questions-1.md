@@ -125,11 +125,11 @@ Recently I had two interview with python related positions. I believe it's worth
 4. There is a special class below and we hope the adding value into it only via __insert__. Assume that insert function is completed. So please add something to make it raise InsertError correctly.
    
    ```python
-   class InsertError(Exception):
-    pass
+    class InsertError(Exception):
+        pass
 
     class Dictionary():
-    # Need to be added...
+        # Need to be added...
 
     dic = Dictionary()
     dic.insert("Key1", "Value1")
@@ -144,7 +144,7 @@ Recently I had two interview with python related positions. I believe it's worth
 
    Ans: 
    ```python
-   class Dictionary():
-    def __setitem__(self, key, value):
-        raise InsertError
+    class Dictionary():
+        def __setitem__(self, key, value):
+            raise InsertError
    ```
