@@ -4,6 +4,11 @@ Here is my learning record through [LeetCode Questions](https://github.com/Jaime
 
 ---
 
+## Python Interview Questions 1(9/25/2020)
+[Article Link](https://jaimecclin.github.io/blog/articles/python-interview-questions-1)
+
+---
+
 ## Python list multiplication operator trap (9/6/2020)
 [Article Link](https://jaimecclin.github.io/blog/articles/python-list-multiplication-operator)
 
