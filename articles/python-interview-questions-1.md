@@ -6,7 +6,7 @@ September 25, 2020
 
 ## Movivation 
 
-Recently I had two interview with python related positions. I believe it's worthy to record it.
+Recently I had two interview with python related positions. I believe it's worthy to record it. I can't remember everything in detail, so I just try to tell the story in my way. If you find something wrong, please let me know. Thanks!
 
 ## Questions
 
@@ -135,9 +135,9 @@ Recently I had two interview with python related positions. I believe it's worth
     dic.insert("Key1", "Value1")
 
     try:
-    dic["Key2"] = "Value2"
+        dic["Key2"] = "Value2"
     except :
-    print("InsertError is caught.") 
+        print("InsertError is caught.") 
 
     # result: InsertError is caught.
    ```
