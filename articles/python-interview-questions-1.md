@@ -4,9 +4,9 @@
 
 September 25, 2020 
 
-## Movivation 
+## Motivation 
 
-Recently I had two interview with python related positions. I believe it's worthy to record it. I can't remember everything in detail, so I just try to tell the story in my way. If you find something wrong, please let me know. Thanks!
+Recently I had two interviews with python related positions. I believe it's worthy to record it. I can't remember everything in detail, so I just try to tell the story in my way. If you find something wrong, please let me know. Thanks!
 
 ## Questions
 
@@ -63,11 +63,12 @@ Recently I had two interview with python related positions. I believe it's worth
    ```
    45
    ```
-   Explanation: The default value in funcion occupies an piece of memory when it's declared. If no argument, it would use the same object to finish the function call so as those x values are inserted into dic.
+   Explanation: 
+   The default value in function occupies a piece of memory when it's declared. If no argument, it would use the same object to finish the function call so as those x values are inserted into dic.
 
-3. Design a Calculator class and implement functionality of plus, minus, multiply, and divide. Please try your best to make it handy to use. Hint: Maybe we can use it like a library.
+3. Design a Calculator class and implement the functionality of plus, minus, multiply, and divide. Please try your best to make it handy to use. Hint: Maybe we can use it as a library.
 
-   Ans 1: Implemete class methods.
+   Ans 1: Implement class methods.
 
    ```python
     class Calculator():
@@ -122,9 +123,10 @@ Recently I had two interview with python related positions. I believe it's worth
     ans = Calculator(5) / Calculator(3)
    ```
 
-   Explanation: Actually I came up with these two ideas when I was testing. Not sure which one is better. I feel the former one is more close to the question.
+   Explanation: 
+   Actually, I came up with these two ideas when I was testing. I think both do work and not sure which one is better. I feel the former one is more close to the question.
    
-4. There is a special class below and we hope the adding value into it only via __insert__. Assume that insert function is completed. So please add something to make it raise InsertError correctly.
+4. There is a special class below and we hope the adding value into it only via __insert__. Assume that the insert function is completed. So please add something to make it raise InsertError correctly.
    
    ```python
     class InsertError(Exception):
