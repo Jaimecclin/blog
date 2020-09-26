@@ -2,6 +2,12 @@
 ![leetcodelogo](https://jaimecclin.github.io/blog/resources/leetcode_logo.jpeg)  
 Here is my learning record through [LeetCode Questions](https://github.com/Jaimecclin/LeetCodeCollections).
 
+
+---
+
+## Use flask to build a website platform to run Machine Learning tasks parallelly
+[Article Link](https://jaimecclin.github.io/blog/articles/flask-build-platform-run-tasks-parallelly)
+
 ---
 
 ## Python Interview Questions 1(9/25/2020)
