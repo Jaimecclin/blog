@@ -102,7 +102,7 @@ class TaskManager:
 ```
 ### Task
 
-In order to execute many tasks parallelly, I adopt Python multiprocessing module to run tasks. And I also create another thread here to monitor the process state. If you have special requirements, f.g. scanning the output of running task, you could extend this thread to get what you need.
+We all know that __multithreading__ cannot bring us real speed-up effect on our program as [__Global Interpreter Lock__](https://en.wikipedia.org/wiki/Global_interpreter_lock). In order to execute many tasks parallelly, I adopt Python multiprocessing module to run tasks. And I also create another thread here to monitor the process state. If you have special requirements, f.g. scanning the output of the running task, you could extend this thread to get what you need.
 
 Regarding the __trainTask function is exactly our real task. Of course, you could define it by yourself, such as scikit-learn SVN. TPOT package is a great tool to help you find the best Machine Learning model without too much effort. I take TPOT regressor as an example here because I'd like a task taking a long time to show the result.
 
