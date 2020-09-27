@@ -1,7 +1,10 @@
+### Hit Counter
+
+![Hits](https://hitcounter.pythonanywhere.com/count/tag.svg?url=https%3A%2F%2Fgithub.com%2FJaimecclin%2Fblog)
+
 ## [Top] LeetCode collections (9/1/2020)
 ![leetcodelogo](https://jaimecclin.github.io/blog/resources/leetcode_logo.jpeg)  
 Here is my learning record through [LeetCode Questions](https://github.com/Jaimecclin/LeetCodeCollections).
-
 
 ---
 
