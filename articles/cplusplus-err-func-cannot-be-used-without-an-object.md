@@ -15,7 +15,7 @@ Class B has a functoon __cal__ to be executed and it will register the function 
 ## First implementation
 
 ### Header file:
-```C++
+```cpp
 class A
 {
 public:
@@ -34,7 +34,7 @@ public:
 
 ### Cpp file:
 
-```C++
+```cpp
 A::A()
 {
 }
@@ -64,7 +64,7 @@ int B::cal(int num1, int num2)
 
 ### main.cpp
 
-```C++
+```cpp
 int main()
 {
    A a = A();
@@ -103,7 +103,7 @@ In my opinion, the cal function needs an instance to access B class's member fun
 
 Please be aware that the __cal__ function is not an static function anymore.
 
-```C++
+```cpp
 class A
 {
 public:
@@ -120,7 +120,7 @@ public:
 };
 ```
 ### Cpp file:
-```C++
+```cpp
 A::A()
 {
 }
