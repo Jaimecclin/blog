@@ -8,12 +8,12 @@ Here is my learning record through [LeetCode Questions](https://github.com/Jaime
 
 ---
 
-## [C++] A::memberfunction cannot be used without an object
+## [C++] A::memberfunction cannot be used without an object (10/1/2020)
 [Article Link](https://jaimecclin.github.io/blog/articles/cplusplus-err-func-cannot-be-used-without-an-object)
 
 ---
 
-## Use flask to build a website platform to run Machine Learning tasks parallelly
+## Use flask to build a website platform to run Machine Learning tasks parallelly (9/26/2020)
 [Article Link](https://jaimecclin.github.io/blog/articles/flask-build-platform-run-tasks-parallelly)
 
 ---
