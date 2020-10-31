@@ -6,6 +6,9 @@
 ![leetcodelogo](https://jaimecclin.github.io/blog/resources/leetcode_logo.jpeg)  
 Here is my learning record through [LeetCode Questions](https://github.com/Jaimecclin/LeetCodeCollections).
 
+## Python _curses.error: setupterm: could not find terminal on Docker-compose (10/31/2020)
+[Article Link](https://jaimecclin.github.io/blog/articles/python-error-curses-not-find-terminal)
+
 ---
 
 ## [C++] A::memberfunction cannot be used without an object (10/1/2020)
