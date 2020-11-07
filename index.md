@@ -8,6 +8,16 @@ Here is my learning record through [LeetCode Questions](https://github.com/Jaime
 
 ---
 
+## Gitlab HTTP Basic: Access denied and fatal:Authentication failed (11/7/2020)
+[Article Link](https://jaimecclin.github.io/blog/articles/gitlab-http-access-denied-and-fatal-authentication-failed)
+
+---
+
+## Power Mode - a cool extension to increase your pleasure in programming (11/4/2020)
+[Article Link](https://jaimecclin.github.io/blog/articles/tools-power-mode)
+
+---
+
 ## Python _curses.error: setupterm: could not find terminal on Docker-compose (10/31/2020)
 [Article Link](https://jaimecclin.github.io/blog/articles/python-error-curses-not-find-terminal)
 
