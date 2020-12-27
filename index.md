@@ -8,6 +8,11 @@ Here is my learning record through [LeetCode Questions](https://github.com/Jaime
 
 ---
 
+## Python — Simple examples for mock module (12/27/2020)
+[Article Link](https://jaimecclin.github.io/blog/articles/python-mock-module-simple-examples)
+
+---
+
 ## Gitlab HTTP Basic: Access denied and fatal:Authentication failed (11/7/2020)
 [Article Link](https://jaimecclin.github.io/blog/articles/gitlab-http-access-denied-and-fatal-authentication-failed)
 
